@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-
+import Header from "./header";
+import Footer from "./footer";
+import MainContent from "./mainContent";
 
 //Lesson 1
 // ReactDOM.render(
@@ -204,44 +205,10 @@ Header Challenge :
   the following `li`s: "Pricing", "About", & "Contact"
 */
 
-function Header(){
-  return(
-    <div>
-      <header>
-        <nav className="nav">
-          <img src="./public/react-logo.png" className="nav-logo" />
-          <ul className="nav-items">
-            <li>Pricing</li>
-            <li>About</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-      </header>
-    </div>
-  )
- 
-}
-
-function Footer(){
-  return(
-    <footer>
-      <small>©2022 Saxena development. All rights reserved.</small>
-    </footer>
-  )
-}
-
-function MainContent(){
-  return(
-    <div>
-      <h1>Excited to Learn React</h1>
-      <ol>
-        <li> I am learning it already and wanted to increase my skills</li>
-        <li> can make cool applications with it </li>
-        <li> it is a very in demand skill right now</li>
-      </ol>
-    </div>
-  )
-}
+/**
+Challenge: move the Footer and MainContent components
+into their own files.
+*/
 
 function Page(){
   return(
